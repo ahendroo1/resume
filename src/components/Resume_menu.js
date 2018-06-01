@@ -18,7 +18,7 @@ class Resume_menu extends Component{
                         <p><i class="fa fa-facebook"></i> Ahendroo</p>
                         <p><i class="fa fa-twitter"></i> @Ahendroo</p>
                         <p><i class="fa fa-github"></i> Ahendroo1</p>
-                        <input type="date" placeholder="Usia" />
+                        
                     </div>
                 </div>
 

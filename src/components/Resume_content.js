@@ -5,19 +5,19 @@ class Resume_content extends Component {
     render(){
     
         var day = new Date();
-        if ((day.getDay()+1) == 1) {
+        if ((day.getDay()) == 6) {
             var day_hari = 'Minggu';
-        } else if ((day.getDay() + 1) == 2) {
+        } else if ((day.getDay()) == 1) {
             var day_hari = 'Senin';
-        } else if ((day.getDay() + 1) == 2) {
+        } else if ((day.getDay()) == 2) {
             var day_hari = 'Selasa';
-        } else if ((day.getDay() + 1) == 3) {
+        } else if ((day.getDay()) == 2) {
             var day_hari = 'Rabu';
-        } else if ((day.getDay() + 1) == 4) {
+        } else if ((day.getDay()) == 3) {
             var day_hari = 'Kamis';
-        } else if ((day.getDay() + 1) == 5) {
+        } else if ((day.getDay()) == 4) {
             var day_hari = "Jum'at";
-        } else if ((day.getDay() + 1) == 6) {
+        } else if ((day.getDay()) == 5) {
             var day_hari = 'Sabtu';
         }
 
@@ -29,11 +29,11 @@ class Resume_content extends Component {
             var day_bulan = 'Maret';
         } else if ((day.getMonth() + 1) == 3) {
             var day_bulan = 'April';
-        } else if ((day.getMonth() + 1) == 4) {
+        } else if ((day.getMonth()) == 4) {
             var day_bulan = 'Mei';
-        } else if ((day.getMonth() + 1) == 5) {
+        } else if ((day.getMonth()) == 5) {
             var day_bulan = "Juni";
-        } else if ((day.getMonth() + 1) == 6) {
+        } else if ((day.getMonth()) == 6) {
             var day_bulan = 'Juli';
         }
 
@@ -45,7 +45,7 @@ class Resume_content extends Component {
                     </div>
                     <header>
                         <h2> Amad Hendro Lukito
-                        <time datetime="">{day_hari + ', ' + (day.getDate()+1) + ' ' + day_bulan + ' ' + (day.getFullYear()+1)}</time>
+                        <time datetime="">{day_hari  + ', ' + (day.getDate()) + ' ' + day_bulan + ' ' + (day.getFullYear())}</time>
                         </h2>
                         <hr />
                         <div class="post-details">

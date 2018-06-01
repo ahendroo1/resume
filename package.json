@@ -3,9 +3,13 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "primereact": "^1.5.3",
     "react": "^16.3.2",
     "react-dom": "^16.3.2",
-    "react-scripts": "1.1.4"
+    "react-scripts": "1.1.4",
+    "react-transition-group": "^2.2.1",
+    "font-awesome": "^4.7.0",
+    "classnames": "^2.2.5"
   },
   "scripts": {
     "start": "react-scripts start",

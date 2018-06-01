@@ -4,7 +4,7 @@ class Resume_menu extends Component{
 
     render(){
         return( 
-            <aside class="col-sm-4">
+            <aside className="col-sm-4">
 
                 <div class="widget-holder card">
                     <h4>Biodata </h4>
@@ -14,9 +14,10 @@ class Resume_menu extends Component{
                         <p><i class="fa fa-calendar"></i> Born : Madiun, 24 Mei 1995</p>
                         <p><i class="fa fa-envelope"></i> Email : AHendroO1@gmail.com</p>
                         <p><i class="fa fa-whatsapp"></i> Telp/WA : +6283845786165</p>
-                        <p><i class="fa fa-comments"></i> Line ID : AhenroO</p>
-                        <p><i class="fa fa-facebook"></i> AhendroO</p>
-                        <p><i class="fa fa-twitter"></i> @AhendroO</p>
+                        <p><i class="fa fa-comments"></i> Line ID : Ahendroo1</p>
+                        <p><i class="fa fa-facebook"></i> Ahendroo</p>
+                        <p><i class="fa fa-twitter"></i> @Ahendroo</p>
+                        <p><i class="fa fa-github"></i> Ahendroo1</p>
                         <input type="date" placeholder="Usia" />
                     </div>
                 </div>
@@ -28,7 +29,7 @@ class Resume_menu extends Component{
                             <img class="Media-figure" src="https://jakcloth.co.id/template/assets/images/logo-jakcloth@1x.png" height="80px;" alt="Kitten" />
                             <div class="Media-body">
                                 <h6 class="Media-title">www.jakcloth.co.id</h6>
-                                <p>Application Development & Project Manajement</p>
+                                <p>IT Development <br /> Project Lead <br />Office Technology</p>
                             </div>
                         </div>
 

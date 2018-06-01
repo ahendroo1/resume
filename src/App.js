@@ -1,6 +1,10 @@
 import React, { Component } from 'react';
 // import Header from './components/Header';
 // import Footer from './components/Footer';
+import { Accordion, AccordionTab } from 'primereact/components/accordion/Accordion';
+import 'primereact/resources/primereact.min.css';
+import 'primereact/resources/themes/omega/theme.css';
+import 'font-awesome/css/font-awesome.css';
 import Resume_content from './components/Resume_content';
 import Resume_menu from './components/Resume_menu';
 import Resume_footer from './components/Resume_footer';
@@ -30,7 +34,6 @@ class App extends Component {
       return 'anda belum login';
     }
 
-
     function fullname(id){
       return id.nama + '-' + id.marga
     }
@@ -53,7 +56,7 @@ class App extends Component {
     return (
       <div>
           <div class="back-button">
-                <img src="https://pbs.twimg.com/profile_images/918687180813250560/wMjdHTBG_400x400.jpg" class="img-circle" alt="Amad Hendro" width="50px" />
+            <img src="https://pbs.twimg.com/profile_images/918687180813250560/wMjdHTBG_400x400.jpg" class="img-circle" alt="Amad Hendro" width="50px" />
           </div>
 
           <div class="single-background">
@@ -70,7 +73,6 @@ class App extends Component {
 
                 {/* resume content */}
                 <Resume_content />
-
                 {/* resume menu */}
                 <Resume_menu />
               </div>
@@ -100,7 +102,7 @@ class App extends Component {
       </div>
     );
   }
-  
+
 }
 
 export default App;
